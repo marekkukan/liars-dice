@@ -1,0 +1,19 @@
+- citaj instrukcie zo stdin:
+
+NEW_GAME                (nova hra)
+NEW_ROUND 4 6           (nove kolo, ty mas 4 kocky, protihrac ma 6 kociek)
+PLAY 5 2 1 2            (si na tahu, na zakrytych kockach mas hodene 5 2 1 2)
+OPPONENT_BIDS 5 6       (dava pat sestiek)
+OPPONENT_REVEALS 6 1 6  (vyklada jednotku a dve sestky)
+OPPONENT_CHALLENGES     (neveri)
+OPPONENT_HAS 2 2 3      (na zakrytych kockach mal dve dvojky a trojku)
+YOU_WIN                 (vyhral si hru)
+YOU_LOSE                (prehral si hru)
+
+- pis tahy na stdout:
+
+BID 3 5                 (davam tri patky)
+REVEAL 1 1 6            (vykladam dve jednotky a sestku; server odpovie napr. PLAY 2 (dohodil si si dvojku))
+CHALLENGE               (neverim)
+
+- ak niekto spravi neplatny tah (napr. CHALLENGE potom co vykladal), tak prehrava hru

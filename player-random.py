@@ -1,7 +1,8 @@
 #!/usr/bin/python3 -u
 
 
-import sys, os, random
+import sys
+import random
 from bid import Bid
 
 

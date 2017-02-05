@@ -142,6 +142,8 @@ class Game:
                 self.invalid_move(move)
                 return
             self.opp().write('OPPONENT_CHALLENGES')
+            self.opp().write('OPPONENT_HAS ' + l2s(self.cp.hidden_dice))
+            self.cp.write('OPPONENT_HAS ' + l2s(self.opp().hidden_dice))
             all_dice = []
             for p in self.players:
                 all_dice.extend(p.revealed_dice)
