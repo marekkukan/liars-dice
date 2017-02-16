@@ -10,7 +10,7 @@ PLAY 5 2 1 2                (si na tahu, na neodokrytych kockach mas hodene 5 2 
 PLAYER_BIDS 0 5 6           (hrac s ID 0 dava pat sestiek)
 PLAYER_REVEALS 1 6 1 6      (hrac s ID 1 vyklada jednotku a dve sestky)
 PLAYER_CHALLENGES 2         (hrac s ID 2 neveri)
-PLAYER_HAS 3 2 5 5          (hrac s ID 3 ma na neodokrytych kockach dvojku a dve patky)
+PLAYER_HAD 3 2 5 5          (hrac s ID 3 mal na neodokrytych kockach dvojku a dve patky)
 
 YOU_WIN                     (vyhral si hru)
 YOU_LOSE                    (prehral si hru)
