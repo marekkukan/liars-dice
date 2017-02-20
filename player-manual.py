@@ -13,12 +13,13 @@ if not os.path.exists('pipe-out'):
 pipe_in = open('pipe-in', 'r')
 pipe_out = open('pipe-out', 'w')
 
-instruction = sys.stdin.readline()
-while instruction:
-    pipe_out.write(instruction)
+line = sys.stdin.readline()
+while line:
+    pipe_out.write(line)
     pipe_out.flush()
-    if instruction.startswith('PLAY'):
+    parts = line.split(' ')
+    if parts[0] == 'PLAY':
         move = pipe_in.readline().rstrip()
         print(move)
-    instruction = sys.stdin.readline()
+    line = sys.stdin.readline()
 

@@ -2,10 +2,13 @@
 
 trap "kill 0" SIGINT
 
-[[ -p "pipe-in" ]] || mkfifo pipe-in
-[[ -p "pipe-out" ]] || mkfifo pipe-out
+rm -f pipe-in pipe-out
+mkfifo pipe-in pipe-out
 
-./manager.py player-manual.py player-random.py >log.txt 2>/dev/null &
+(
+./run_tournament.py 1 player-manual.py player-smart.py >log.txt 2>/dev/null
+kill -SIGINT $$
+) &
 
 (
 while true
