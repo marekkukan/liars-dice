@@ -2,7 +2,7 @@
 
 NEW_TOURNAMENT 7 2 100      (novy turnaj, 7 hracov, tvoje ID je 2, bude sa hrat 100 hier)
 NEW_GAME 3 2 4 0 5 6 1      (nova hra, ID hracov v poradi v akom sa bude hrat; prve kolo zacina hrac 3)
-NEW_ROUND 0 0 1 0 0 3 0     (nove kolo, hrac s ID 2 ma jednu kocku, hrac s ID 5 ma tri kocky, ostatni uz vypadli)
+NEW_ROUND 4 0 0 0 0 0 3     (nove kolo, hrac s ID 0 ma styri kocky, hrac s ID 6 ma tri kocky, ostatni uz vypadli)
 
 PLAY 5 2 1 2                (si na tahu, na neodokrytych kockach mas hodene 5 2 1 2)
 
