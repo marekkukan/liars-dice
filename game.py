@@ -59,6 +59,7 @@ class Game:
         elif parts[0] == 'REVEAL':
             try:
                 assert reveal_possible
+                assert len(parts) > 1
                 dice = (int(x) for x in parts[1:])
                 for die in dice:
                     self.cp().hidden_dice.remove(die)
