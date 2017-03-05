@@ -31,6 +31,7 @@ class Game:
             p.n_dice = 6
         while not self.finished:
             self.play_round()
+        return self.winner.id
 
     def play_round(self):
         self.finished_round = False
@@ -104,6 +105,7 @@ class Game:
             self.shift_cpi()
             if self.n_players < 2:
                 self.finished = True
+		self.winner = self.cp()
                 self.cp().write('YOU_WIN')
 
     def invalid_move(self, move):
