@@ -1,2 +1,2 @@
-player-random: player-random.c
+player_random: player_random.c
 	gcc -o $@ $<
