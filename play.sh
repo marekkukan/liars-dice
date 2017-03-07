@@ -1,23 +1,18 @@
 #!/usr/bin/env bash
 
-trap "kill 0" SIGINT
+exitf() {
+    [[ -z `jobs -r` ]] || kill 0
+    rm pipe0 pipe1
+}
 
-rm -f pipe-in pipe-out
-mkfifo pipe-in pipe-out
+trap exitf EXIT
 
-(
-./run_tournament.py 1 player-manual.py player-smart.py >log.txt 2>/dev/null
-kill -SIGINT $$
-) &
+players=$@
+[[ -z $@ ]] && players="player-smart.py"
 
-(
-while true
-do
-    cat pipe-out
-done
-) &
+mkfifo pipe0 pipe1
 
-while true
-do
-    cat > pipe-in
-done
+./run_tournament.py 1 player-manual.py ${players} >log.txt 2>/dev/null &
+
+cat pipe1 &
+cat > pipe0
