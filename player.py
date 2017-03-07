@@ -14,7 +14,7 @@ class Player:
         Player.fds.extend(list(pipe))
         return pipe
 
-    def __init__(self, path):
+    def __init__(self, path, arg=""):
         self._path = path
         self._pipe_out = self.create_pipe()
         self._pipe_in = self.create_pipe()
@@ -23,6 +23,7 @@ class Player:
         self.hidden_dice = []
         self.revealed_dice = []
         self.id = None
+        self.arg = arg
         self.n_wins = 0
 
     def __str__(self):
@@ -38,7 +39,7 @@ class Player:
                     os.close(fd)
                 except OSError:
                     pass
-            os.execl(self._path, 'player')
+            os.execl(self._path, '', self.id, self.arg)
             sys.stderr.write("exec failed\n")
             os._exit(1)
         else:

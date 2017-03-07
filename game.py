@@ -31,6 +31,7 @@ class Game:
             p.n_dice = 6
         while not self.finished:
             self.play_round()
+        return self.winner.id
 
     def play_round(self):
         self.finished_round = False
@@ -59,6 +60,7 @@ class Game:
         elif parts[0] == 'REVEAL':
             try:
                 assert reveal_possible
+                assert len(parts) > 1
                 dice = (int(x) for x in parts[1:])
                 for die in dice:
                     self.cp().hidden_dice.remove(die)
@@ -103,6 +105,7 @@ class Game:
             self.shift_cpi()
             if self.n_players < 2:
                 self.finished = True
+		self.winner = self.cp()
                 self.cp().write('YOU_WIN')
 
     def invalid_move(self, move):
