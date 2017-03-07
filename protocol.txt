@@ -28,5 +28,7 @@ CHALLENGE                   (neverim)
  - CHALLENGE hned po REVEAL
  - REVEAL hned po REVEAL
  - REVEAL kociek ktorymi hrac nedisponuje
+ - REVEAL nula kociek
  - BID mensi alebo rovny ako aktualny bid
+ - BID viac ako n+1 kociek, kde n je pocet kociek v hre
  - hocico co sa nepodari sparsovat
