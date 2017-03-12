@@ -39,7 +39,7 @@ class Player:
                     os.close(fd)
                 except OSError:
                     pass
-            os.execl(self._path, '', self.id, self.arg)
+            os.execl(self._path, '', str(self.id), self.arg)
             sys.stderr.write("exec failed\n")
             os._exit(1)
         else:
