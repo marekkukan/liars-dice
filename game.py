@@ -105,7 +105,7 @@ class Game:
             self.shift_cpi()
             if self.n_players < 2:
                 self.finished = True
-		self.winner = self.cp()
+                self.winner = self.cp()
                 self.cp().write('YOU_WIN')
 
     def invalid_move(self, move):
