@@ -40,6 +40,7 @@ class Game:
             p.write('NEW_ROUND ' + ' '.join(str(p.n_dice) for p in self.players_sorted))
             p.revealed_dice = []
             p.roll()
+        self.n_dice = sum(p.n_dice for p in self.players)
         self.eval_move(self.cp().play(), challenge_possible=False)
         while not self.finished and not self.finished_round:
             self.shift_cpi()
@@ -52,6 +53,7 @@ class Game:
                 bid = Bid(int(parts[1]), int(parts[2]))
                 assert 1 <= bid.value <= 6
                 assert bid > self.bid
+                assert bid.count <= self.n_dice + 1
             except:
                 self.invalid_move(move)
                 return
