@@ -53,7 +53,7 @@ class Game:
                 bid = Bid(int(parts[1]), int(parts[2]))
                 assert 1 <= bid.value <= 6
                 assert bid > self.bid
-                assert bid.count <= self.n_dice + 1
+                assert bid.quantity <= self.n_dice + 1
             except:
                 self.invalid_move(move)
                 return
@@ -86,7 +86,7 @@ class Game:
             for p in self.players:
                 all_dice.extend(p.revealed_dice)
                 all_dice.extend(p.hidden_dice)
-            diff = self.bid.count - sum([1 for die in all_dice if die == self.bid.value or die == 1])
+            diff = self.bid.quantity - sum([1 for die in all_dice if die == self.bid.value or die == 1])
             if diff < 0:
                 self.cp().n_dice += diff
             elif diff > 0:

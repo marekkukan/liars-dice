@@ -4,21 +4,21 @@ from functools import total_ordering
 @total_ordering
 class Bid:
 
-    def __init__(self, count, value):
-        self.count = count
+    def __init__(self, quantity, value):
+        self.quantity = quantity
         self.value = value
 
     def __str__(self):
-        return str(self.count) + ' ' + str(self.value)
+        return str(self.quantity) + ' ' + str(self.value)
 
     def __eq__(self, other):
-        return self.count == other.count and self.value == other.value
+        return self.quantity == other.quantity and self.value == other.value
 
     def __gt__(self, other):
-        return self._adjusted_count() > other._adjusted_count() or \
-                (self._adjusted_count() == other._adjusted_count() and \
+        return self._adjusted_quantity() > other._adjusted_quantity() or \
+                (self._adjusted_quantity() == other._adjusted_quantity() and \
                  self.value > other.value)
 
-    def _adjusted_count(self):
-        return 2 * self.count if self.value == 1 else self.count
+    def _adjusted_quantity(self):
+        return 2 * self.quantity if self.value == 1 else self.quantity
 
