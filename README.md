@@ -1,11 +1,11 @@
 usage example:
 
 ```
-# compile player in C
+# compile players in C and Java
 make
 
 # run tournament
-./run_tournament.py 1000 player_buggy.py player_random player_smart.py >log.txt
+./run_tournament.py 1000 player_random_c player_random_java player_smart.py
 
 # see results
 tail -n 5 log.txt
