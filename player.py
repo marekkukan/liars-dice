@@ -51,11 +51,13 @@ class Player:
         if msg == 'YOU_WIN':
             self.n_wins += 1
         print('manager -> ' + str(self) + ':\t' + msg)
+        sys.stdout.flush()
         os.write(self._pipe_out[1], (msg+'\n').encode())
 
     def read(self):
         msg = self._fo.readline().rstrip()
         print(str(self) + ' -> manager:\t' + msg)
+        sys.stdout.flush()
         return msg
 
     def roll(self):
@@ -69,5 +71,6 @@ class Player:
         dt = time.time() - t
         if dt > 0.1:
             print('slow response by player ' + str(self) + ' (' + str(dt) + 's)')
+            sys.stdout.flush()
         return move
 

@@ -12,7 +12,7 @@ players=$@
 
 mkfifo pipe0 pipe1
 
-./run_tournament.py 1 player_manual.py ${players} >log.txt 2>/dev/null &
+./run_tournament.py 1 player_manual.py ${players} >log-stdout.txt 2>log-stderr.txt &
 
 cat pipe1 &
 cat > pipe0
