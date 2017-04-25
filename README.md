@@ -1,6 +1,6 @@
 usage example:
 
-```
+```bash
 # compile players in C and Java
 make
 
