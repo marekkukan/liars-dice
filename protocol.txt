@@ -1,29 +1,28 @@
-- citaj instrukcie zo stdin:
+- ake info chodi na standardny vstup:
 
-NEW_TOURNAMENT 7 2 100      (novy turnaj, 7 hracov, tvoje ID je 2, bude sa hrat 100 hier)
-NEW_GAME 3 2 4 0 5 6 1      (nova hra, ID hracov v poradi v akom sa bude hrat; prve kolo zacina hrac 3)
-NEW_ROUND 4 0 0 0 0 0 3     (nove kolo, hrac s ID 0 ma styri kocky, hrac s ID 6 ma tri kocky, ostatni uz vypadli)
+NEW_TOURNAMENT 7 2 100      (zacina novy turnaj, 7 hracov, ty si hrac cislo 2 (hraci su cislovani od 0), bude sa hrat 100 hier)
+NEW_GAME 3 2 4 0 5 6 1      (zacina nova hra, cisla hracov v poradi v ktorom budu hrat (prve kolo zacina hrac 3))
+NEW_ROUND 4 2 0 0 0 0 0     (zacina nove kolo, pocty kociek hracov (hrac 0 ma 4 kocky, hrac 1 ma 2 kocky, ostatni uz vypadli))
 
 PLAY 5 2 1 2                (si na tahu, na neodokrytych kockach mas hodene 5 2 1 2)
 
-(vsetko co zacina PLAYER ma prvy parameter ID daneho hraca)
-PLAYER_BIDS 0 5 6           (hrac s ID 0 dava pat sestiek)
-PLAYER_REVEALS 1 6 1 6      (hrac s ID 1 vyklada jednotku a dve sestky)
-PLAYER_CHALLENGES 2         (hrac s ID 2 neveri)
-PLAYER_HAD 3 2 5 5          (hrac s ID 3 mal na neodokrytych kockach dvojku a dve patky)
+(vsetko co zacina PLAYER ma prvy parameter cislo daneho hraca)
+
+PLAYER_BIDS 0 5 6           (hrac 0 dava pat sestiek)
+PLAYER_REVEALS 1 6 1 6      (hrac 1 vyklada jednotku a dve sestky)
+PLAYER_CHALLENGES 2         (hrac 2 neveri)
+PLAYER_HAD 3 2 5 5          (hrac 3 mal na neodokrytych kockach dvojku a dve patky)
 
 YOU_WIN                     (vyhral si hru)
 YOU_LOSE                    (prehral si hru)
 
-- pis tahy na stdout:
+- ako pisat tahy na standardny vystup:
 
 BID 3 5                     (davam tri patky)
 REVEAL 1 1 6                (vykladam dve jednotky a sestku; server odpovie napr. PLAY 2 (dohodil si si dvojku))
 CHALLENGE                   (neverim)
 
-- ak niekto spravi neplatny tah, tak vypadava z hry a hra pokracuje dalej novym kolom
-
-- neplatne tahy su:
+- neplatne tahy:
  - CHALLENGE ako prvy tah noveho kola
  - CHALLENGE hned po REVEAL
  - REVEAL hned po REVEAL
