@@ -1,3 +1,6 @@
+<script src='https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-MML-AM_CHTML'>
+</script>
+
 ## Všeobecné pravidlá
 * súťažiť sa môže aj v tímoch
 * deadline je 1.8.2017 23:59:59
@@ -11,8 +14,8 @@
 * turnaj bude mať 100 hier, ak na konci nebude nikto *nespochybniteľný* víťaz, tak sa bude hrať nový turnaj, ktorý bude mať 1000 hier, ak ani potom nebude *nespochybniteľný* víťaz, tak nový turnaj o 10000 hier, atď. až kým nebude *nespochybniteľný* víťaz, alebo kým turnaj nebude trvať dlhšie ako 24 hodín
 * víťaz je *nespochybniteľný*, ak je veľmi nepravdepodobné, že vyhral len vďaka šťastiu
   * presná definícia:  
-Nech n je počet hráčov a nech p<sub>1</sub>, p<sub>2</sub> sú počty vyhratých hier prvého a druhého hráča.  
-Ak (p<sub>1</sub> - p<sub>2</sub>)<sup>2</sup> / (p<sub>1</sub> + p<sub>2</sub>) > q<sub>&Chi;<sup>2</sup>(n-1)</sub>(0.95), tak víťaz je *nespochybniteľný*.  
+Nech $$n$$ je počet hráčov a nech $$p_1, p_2$$ sú počty vyhratých hier prvého a druhého hráča.
+Ak $$(p_1 - p_2)^2 / (p_1 + p_2) > q_{\chi^2(n-1)}(0.95)$$, tak víťaz je *nespochybniteľný*.  
 (Tá podmienka je zamietacie kritérium pre [test dobrej zhody](https://cs.wikipedia.org/wiki/Test_dobr%C3%A9_shody) hypotézy, že druhý hráč je rovnako dobrý ako prvý.)  
 (Napr. ak sú výsledky [500, 400, 100], tak víťaz je nespochybniteľný. Ak sú výsledky [50, 30, 20], tak nie je.)
 
@@ -31,3 +34,4 @@ Ak (p<sub>1</sub> - p<sub>2</sub>)<sup>2</sup> / (p<sub>1</sub> + p<sub>2</sub>)
 
 ## <a name="results"></a>Výsledky
 * tu časom budú
+
