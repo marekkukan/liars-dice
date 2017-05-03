@@ -33,5 +33,5 @@ Ak $$(p_1 - p_2)^2 / (p_1 + p_2) > q_{\chi^2(n-1)}(0.95)$$, tak víťaz je *nesp
 * víťaz súťaže okrem toho vyhrá aj večnú slávu a (s jeho dovolením) jeho bot bude použitý v appke, ktorú možno raz spravím
 
 ## <a name="results"></a>Výsledky
-* tu časom budú
+![image](https://marekkukan.github.io/liars-dice/graph-2017-05-01.svg)
 
