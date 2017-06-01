@@ -22,7 +22,7 @@ if __name__ == '__main__':
     ### plot
     G = len(wins)
     P = len(players)
-    COLORS = ['0.5', 'purple', 'r', 'g', 'b'] + ['k'] * P
+    COLORS = ['purple', 'orange', 'r', 'g', 'b'] + ['k'] * P
     c = [0] * P
     d = [[0] * (G+1) for _ in range(P)]
     for i,p in enumerate(wins):
