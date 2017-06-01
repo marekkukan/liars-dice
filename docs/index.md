@@ -11,7 +11,7 @@
 * poradie hráčov je na začiatku každej hry náhodne určené
 * prvé kolo začína prvý hráč v poradí, ďalšie kolá začína vždy hráč, ktorý naposledy prehral (príp. ak vypadol, tak hráč za ním)
 * ak niekto spraví neplatný ťah, alebo nespraví ťah v časovom limite, tak vypadáva z hry a hra pokračuje ďalej novým kolom (v [protokole](https://github.com/marekkukan/liars-dice/blob/master/protocol.txt) sú uvedené všetky možné neplatné ťahy)
-* turnaj bude mať 100 hier, ak na konci nebude nikto *nespochybniteľný* víťaz, tak sa bude hrať nový turnaj, ktorý bude mať 1000 hier, ak ani potom nebude *nespochybniteľný* víťaz, tak nový turnaj o 10000 hier, atď. až kým nebude *nespochybniteľný* víťaz, alebo kým turnaj nebude trvať dlhšie ako 24 hodín
+* turnaj bude mať $$10^4$$ hier, ak na konci nebude nikto *nespochybniteľný* víťaz, tak sa bude hrať nový turnaj, ktorý bude mať $$10^5$$ hier, ak ani potom nebude *nespochybniteľný* víťaz, tak nový turnaj o $$10^6$$ hier, atď. až kým nebude *nespochybniteľný* víťaz, alebo kým turnaj nebude trvať dlhšie ako 24 hodín
 * víťaz je *nespochybniteľný*, ak je veľmi nepravdepodobné, že vyhral len vďaka šťastiu
   * presná definícia:  
 Nech $$n$$ je počet hráčov a nech $$p_1, p_2$$ sú počty vyhratých hier prvého a druhého hráča.
@@ -33,5 +33,8 @@ Ak $$(p_1 - p_2)^2 / (p_1 + p_2) > q_{\chi^2(n-1)}(0.95)$$, tak víťaz je *nesp
 * víťaz súťaže okrem toho vyhrá aj večnú slávu a (s jeho dovolením) jeho bot bude použitý v appke, ktorú možno raz spravím
 
 ## <a name="results"></a>Výsledky
+![image](https://marekkukan.github.io/liars-dice/graph-2017-06-01.svg)
+
+### Staré výsledky
 ![image](https://marekkukan.github.io/liars-dice/graph-2017-05-01.svg)
 
