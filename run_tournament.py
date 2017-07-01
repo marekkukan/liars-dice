@@ -31,11 +31,12 @@ if __name__ == '__main__':
             d[j][i+1] = d[j][i]
         d[p][i+1] += 1
     for i in range(P):
-        plt.plot(range(G+1), d[i], COLORS[i], linestyle='-')
+        plt.plot(range(G+1), d[i], COLORS[i], linestyle='-', label=str(d[i][G]))
         plt.text(G+G//100, d[i][-1], players[i]._path, color=COLORS[i])
     plt.title(str(datetime.date.today()))
     plt.xlabel('number of games')
     plt.ylabel('number of wins')
+    plt.legend(loc='upper left')
     plt.savefig('graph-'+str(datetime.date.today())+'.svg', bbox_inches='tight')
     ### end plot
 
