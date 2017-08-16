@@ -3,7 +3,7 @@
 
 ## Všeobecné pravidlá
 * súťažiť sa môže aj v tímoch
-* deadline je 1.8.2017 23:59:59
+* deadline je 20.8.2017 23:59:59
 * 1\. a 15. deň v mesiaci budú zverejňované priebežné [výsledky](#results)
 
 ## Pravidlá hry
