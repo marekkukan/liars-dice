@@ -3,60 +3,37 @@
 ## Výsledky
 ![image](https://marekkukan.github.io/liars-dice/graph-2017-08-21.svg)
 
-<table id="duel-results">
-<caption>Výsledky duelov</caption>
-<tr>
-<th></th>
-<th>marek</th>
-<th>majka</th>
-<th>matus</th>
-<th>nukeman</th>
-<th>andrej</th>
-</tr>
-<tr>
-<th>marek</th>
-<td>-</td>
-<td>560:440</td>
-<td>769:231</td>
-<td>887:113</td>
-<td>823:177</td>
-</tr>
-<tr>
-<th>majka</th>
-<td>440:560</td>
-<td>-</td>
-<td>675:325</td>
-<td>798:202</td>
-<td>807:193</td>
-</tr>
-<tr>
-<th>matus</th>
-<td>231:769</td>
-<td>325:675</td>
-<td>-</td>
-<td>479:521</td>
-<td>956:44</td>
-</tr>
-<tr>
-<th>nukeman</th>
-<td>113:887</td>
-<td>202:798</td>
-<td>521:479</td>
-<td>-</td>
-<td>947:53</td>
-</tr>
-<tr>
-<th>andrej</th>
-<td>177:823</td>
-<td>193:807</td>
-<td>44:956</td>
-<td>53:947</td>
-<td>-</td>
-</tr>
+### Výsledky duelov
+<table style="margin-left: auto; margin-right: auto; text-align: center;">
+<tr><th></th><th>marek</th><th>majka</th><th>matus</th><th>nukeman</th><th>andrej</th></tr>
+<tr><th>marek</th><td>-</td><td>560:440</td><td>769:231</td><td>887:113</td><td>823:177</td></tr>
+<tr><th>majka</th><td>440:560</td><td>-</td><td>675:325</td><td>798:202</td><td>807:193</td></tr>
+<tr><th>matus</th><td>231:769</td><td>325:675</td><td>-</td><td>479:521</td><td>956:44</td></tr>
+<tr><th>nukeman</th><td>113:887</td><td>202:798</td><td>521:479</td><td>-</td><td>947:53</td></tr>
+<tr><th>andrej</th><td>177:823</td><td>193:807</td><td>44:956</td><td>53:947</td><td>-</td></tr>
 </table>
 
+### Záznamy z manuálnej hry proti botom
+#### me vs. all
 <script type="text/javascript" src="https://asciinema.org/a/5M52XyTUDLHFlpaIpDWprW8yU.js" id="asciicast-5M52XyTUDLHFlpaIpDWprW8yU" async data-size="big" data-theme="tango"></script>
 
+#### me vs. marek
+<script type="text/javascript" src="https://asciinema.org/a/BV8REfuBpRmyxiXvVMIOexRSy.js" id="asciicast-BV8REfuBpRmyxiXvVMIOexRSy" async data-size="big" data-theme="tango"></script>
+
+#### me vs. majka
+<script type="text/javascript" src="https://asciinema.org/a/NC4uxbyYbsfR8M6oOrYA9uyRA.js" id="asciicast-NC4uxbyYbsfR8M6oOrYA9uyRA" async data-size="big" data-theme="tango"></script>
+
+#### me vs. matus
+<script type="text/javascript" src="https://asciinema.org/a/AyiG6KJK6bn9RZqlkzZFJYtw2.js" id="asciicast-AyiG6KJK6bn9RZqlkzZFJYtw2" async data-size="big" data-theme="tango"></script>
+
+#### me vs. nukeman
+<script type="text/javascript" src="https://asciinema.org/a/UKGtelIoA0S1AJloKcwRPOV5N.js" id="asciicast-UKGtelIoA0S1AJloKcwRPOV5N" async data-size="big" data-theme="tango"></script>
+
+#### me vs. andrej
+<script type="text/javascript" src="https://asciinema.org/a/mhyUmG2v1nabChEovR0PnIQhX.js" id="asciicast-mhyUmG2v1nabChEovR0PnIQhX" async data-size="big" data-theme="tango"></script>
+
+---
+---
 ---
 
 ## Všeobecné pravidlá
