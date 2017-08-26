@@ -17,19 +17,19 @@
 #### me vs. all
 <script type="text/javascript" src="https://asciinema.org/a/5M52XyTUDLHFlpaIpDWprW8yU.js" id="asciicast-5M52XyTUDLHFlpaIpDWprW8yU" async data-size="big" data-theme="tango"></script>
 
-#### me vs. marek
+#### me vs. marek (16:4)
 <script type="text/javascript" src="https://asciinema.org/a/BV8REfuBpRmyxiXvVMIOexRSy.js" id="asciicast-BV8REfuBpRmyxiXvVMIOexRSy" async data-size="big" data-theme="tango"></script>
 
-#### me vs. majka
+#### me vs. majka (16:4)
 <script type="text/javascript" src="https://asciinema.org/a/NC4uxbyYbsfR8M6oOrYA9uyRA.js" id="asciicast-NC4uxbyYbsfR8M6oOrYA9uyRA" async data-size="big" data-theme="tango"></script>
 
-#### me vs. matus
+#### me vs. matus (19:1)
 <script type="text/javascript" src="https://asciinema.org/a/AyiG6KJK6bn9RZqlkzZFJYtw2.js" id="asciicast-AyiG6KJK6bn9RZqlkzZFJYtw2" async data-size="big" data-theme="tango"></script>
 
-#### me vs. nukeman
+#### me vs. nukeman (18:2)
 <script type="text/javascript" src="https://asciinema.org/a/UKGtelIoA0S1AJloKcwRPOV5N.js" id="asciicast-UKGtelIoA0S1AJloKcwRPOV5N" async data-size="big" data-theme="tango"></script>
 
-#### me vs. andrej
+#### me vs. andrej (19:1)
 <script type="text/javascript" src="https://asciinema.org/a/mhyUmG2v1nabChEovR0PnIQhX.js" id="asciicast-mhyUmG2v1nabChEovR0PnIQhX" async data-size="big" data-theme="tango"></script>
 
 ---
