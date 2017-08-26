@@ -1,5 +1,63 @@
-<script src='https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-MML-AM_CHTML'>
-</script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-MML-AM_CHTML'></script>
+
+## Výsledky
+![image](https://marekkukan.github.io/liars-dice/graph-2017-08-21.svg)
+
+<table id="duel-results">
+<caption>Výsledky duelov</caption>
+<tr>
+<th></th>
+<th>marek</th>
+<th>majka</th>
+<th>matus</th>
+<th>nukeman</th>
+<th>andrej</th>
+</tr>
+<tr>
+<th>marek</th>
+<td>-</td>
+<td>560:440</td>
+<td>769:231</td>
+<td>887:113</td>
+<td>823:177</td>
+</tr>
+<tr>
+<th>majka</th>
+<td>440:560</td>
+<td>-</td>
+<td>675:325</td>
+<td>798:202</td>
+<td>807:193</td>
+</tr>
+<tr>
+<th>matus</th>
+<td>231:769</td>
+<td>325:675</td>
+<td>-</td>
+<td>479:521</td>
+<td>956:44</td>
+</tr>
+<tr>
+<th>nukeman</th>
+<td>113:887</td>
+<td>202:798</td>
+<td>521:479</td>
+<td>-</td>
+<td>947:53</td>
+</tr>
+<tr>
+<th>andrej</th>
+<td>177:823</td>
+<td>193:807</td>
+<td>44:956</td>
+<td>53:947</td>
+<td>-</td>
+</tr>
+</table>
+
+<script type="text/javascript" src="https://asciinema.org/a/5M52XyTUDLHFlpaIpDWprW8yU.js" id="asciicast-5M52XyTUDLHFlpaIpDWprW8yU" async data-size="big" data-theme="tango"></script>
+
+---
 
 ## Všeobecné pravidlá
 * súťažiť sa môže aj v tímoch
@@ -32,10 +90,8 @@ Ak $$(p_1 - p_2)^2 / (p_1 + p_2) > q_{\chi^2(n-1)}(0.95)$$, tak víťaz je *nesp
 * každý kto porazí hráča [player_smart.py](https://github.com/marekkukan/liars-dice/blob/master/player_smart.py) má u mňa pivo/kofolu/tekvicový džús/prostedakydrink
 * víťaz súťaže okrem toho vyhrá aj večnú slávu a (s jeho dovolením) jeho bot bude použitý v appke, ktorú možno raz spravím
 
-## <a name="results"></a>Výsledky
+## <a name="results"></a>Výsledky cvičných kôl
 ![image](https://marekkukan.github.io/liars-dice/graph-2017-08-15.svg)
-
-### Staré výsledky
 ![image](https://marekkukan.github.io/liars-dice/graph-2017-07-19.svg)
 ![image](https://marekkukan.github.io/liars-dice/graph-2017-07-01.svg)
 ![image](https://marekkukan.github.io/liars-dice/graph-2017-06-15.svg)
