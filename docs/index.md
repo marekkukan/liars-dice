@@ -5,7 +5,7 @@
 
 ### Výsledky duelov
 <div style="overflow-x: auto;">
-<table style="margin-left: auto; margin-right: auto; text-align: center;">
+<table style="margin-left: auto; margin-right: auto; text-align: center; font-size: small;">
 <tr><th></th><th>marek</th><th>majka</th><th>matus</th><th>nukeman</th><th>andrej</th><th>player_smart.py</th></tr>
 <tr><th>marek</th><td>-</td><td>560:440</td><td>769:231</td><td>887:113</td><td>823:177</td><td>934:66</td></tr>
 <tr><th>majka</th><td>440:560</td><td>-</td><td>675:325</td><td>798:202</td><td>807:193</td><td>808:192</td></tr>
