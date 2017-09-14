@@ -4,33 +4,17 @@
 ![image](https://marekkukan.github.io/liars-dice/graph-2017-08-21.svg)
 
 ### Výsledky duelov
+<div style="overflow-x: auto;">
 <table style="margin-left: auto; margin-right: auto; text-align: center;">
-<tr><th></th><th>marek</th><th>majka</th><th>matus</th><th>nukeman</th><th>andrej</th></tr>
-<tr><th>marek</th><td>-</td><td>560:440</td><td>769:231</td><td>887:113</td><td>823:177</td></tr>
-<tr><th>majka</th><td>440:560</td><td>-</td><td>675:325</td><td>798:202</td><td>807:193</td></tr>
-<tr><th>matus</th><td>231:769</td><td>325:675</td><td>-</td><td>479:521</td><td>956:44</td></tr>
-<tr><th>nukeman</th><td>113:887</td><td>202:798</td><td>521:479</td><td>-</td><td>947:53</td></tr>
-<tr><th>andrej</th><td>177:823</td><td>193:807</td><td>44:956</td><td>53:947</td><td>-</td></tr>
+<tr><th></th><th>marek</th><th>majka</th><th>matus</th><th>nukeman</th><th>andrej</th><th>player_smart.py</th></tr>
+<tr><th>marek</th><td>-</td><td>560 : 440</td><td>769 : 231</td><td>887 : 113</td><td>823 : 177</td><td>934 : 66</td></tr>
+<tr><th>majka</th><td>440 : 560</td><td>-</td><td>675 : 325</td><td>798 : 202</td><td>807 : 193</td><td>808 : 192</td></tr>
+<tr><th>matus</th><td>231 : 769</td><td>325 : 675</td><td>-</td><td>479 : 521</td><td>956 : 44</td><td>921 : 79</td></tr>
+<tr><th>nukeman</th><td>113 : 887</td><td>202 : 798</td><td>521 : 479</td><td>-</td><td>947 : 53</td><td>802 : 198</td></tr>
+<tr><th>andrej</th><td>177 : 823</td><td>193 : 807</td><td>44 : 956</td><td>53 : 947</td><td>-</td><td>465 : 535</td></tr>
+<tr><th>player_smart.py</th><td>66 : 934</td><td>192 : 808</td><td>79 : 921</td><td>198 : 802</td><td>535 : 465</td><td>-</td></tr>
 </table>
-
-### Záznamy z manuálnej hry proti botom
-#### me vs. all
-<script type="text/javascript" src="https://asciinema.org/a/5M52XyTUDLHFlpaIpDWprW8yU.js" id="asciicast-5M52XyTUDLHFlpaIpDWprW8yU" async data-size="big" data-theme="tango"></script>
-
-#### me vs. marek (16:4)
-<script type="text/javascript" src="https://asciinema.org/a/BV8REfuBpRmyxiXvVMIOexRSy.js" id="asciicast-BV8REfuBpRmyxiXvVMIOexRSy" async data-size="big" data-theme="tango"></script>
-
-#### me vs. majka (16:4)
-<script type="text/javascript" src="https://asciinema.org/a/NC4uxbyYbsfR8M6oOrYA9uyRA.js" id="asciicast-NC4uxbyYbsfR8M6oOrYA9uyRA" async data-size="big" data-theme="tango"></script>
-
-#### me vs. matus (19:1)
-<script type="text/javascript" src="https://asciinema.org/a/AyiG6KJK6bn9RZqlkzZFJYtw2.js" id="asciicast-AyiG6KJK6bn9RZqlkzZFJYtw2" async data-size="big" data-theme="tango"></script>
-
-#### me vs. nukeman (18:2)
-<script type="text/javascript" src="https://asciinema.org/a/UKGtelIoA0S1AJloKcwRPOV5N.js" id="asciicast-UKGtelIoA0S1AJloKcwRPOV5N" async data-size="big" data-theme="tango"></script>
-
-#### me vs. andrej (19:1)
-<script type="text/javascript" src="https://asciinema.org/a/mhyUmG2v1nabChEovR0PnIQhX.js" id="asciicast-mhyUmG2v1nabChEovR0PnIQhX" async data-size="big" data-theme="tango"></script>
+</div>
 
 ---
 ---
