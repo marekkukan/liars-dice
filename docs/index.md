@@ -7,12 +7,12 @@
 <div style="overflow-x: auto;">
 <table style="margin-left: auto; margin-right: auto; text-align: center;">
 <tr><th></th><th>marek</th><th>majka</th><th>matus</th><th>nukeman</th><th>andrej</th><th>player_smart.py</th></tr>
-<tr><th>marek</th><td>-</td><td>560 : 440</td><td>769 : 231</td><td>887 : 113</td><td>823 : 177</td><td>934 : 66</td></tr>
-<tr><th>majka</th><td>440 : 560</td><td>-</td><td>675 : 325</td><td>798 : 202</td><td>807 : 193</td><td>808 : 192</td></tr>
-<tr><th>matus</th><td>231 : 769</td><td>325 : 675</td><td>-</td><td>479 : 521</td><td>956 : 44</td><td>921 : 79</td></tr>
-<tr><th>nukeman</th><td>113 : 887</td><td>202 : 798</td><td>521 : 479</td><td>-</td><td>947 : 53</td><td>802 : 198</td></tr>
-<tr><th>andrej</th><td>177 : 823</td><td>193 : 807</td><td>44 : 956</td><td>53 : 947</td><td>-</td><td>465 : 535</td></tr>
-<tr><th>player_smart.py</th><td>66 : 934</td><td>192 : 808</td><td>79 : 921</td><td>198 : 802</td><td>535 : 465</td><td>-</td></tr>
+<tr><th>marek</th><td>-</td><td>560:440</td><td>769:231</td><td>887:113</td><td>823:177</td><td>934:66</td></tr>
+<tr><th>majka</th><td>440:560</td><td>-</td><td>675:325</td><td>798:202</td><td>807:193</td><td>808:192</td></tr>
+<tr><th>matus</th><td>231:769</td><td>325:675</td><td>-</td><td>479:521</td><td>956:44</td><td>921:79</td></tr>
+<tr><th>nukeman</th><td>113:887</td><td>202:798</td><td>521:479</td><td>-</td><td>947:53</td><td>802:198</td></tr>
+<tr><th>andrej</th><td>177:823</td><td>193:807</td><td>44:956</td><td>53:947</td><td>-</td><td>465:535</td></tr>
+<tr><th>player_smart.py</th><td>66:934</td><td>192:808</td><td>79:921</td><td>198:802</td><td>535:465</td><td>-</td></tr>
 </table>
 </div>
 
